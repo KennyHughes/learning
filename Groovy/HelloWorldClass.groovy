@@ -1,17 +1,12 @@
-class HelloWorld {
+class HelloWorldClass {
+
     static void main(String[] args) {
-        println "Hello World"
+        Person person1 = new Person()
+        person1.setFirstName("John")
+        person1.setLastName("Doe")
+        person1.setAge(40)
 
-        int age = 40
-
-        println age
-
-        println age.getClass()
-
-        def name = "John"
-
-        println name
-
-        println name.getClass()
+    println person1.getFullName()
+    println person1.age
     }
 }
