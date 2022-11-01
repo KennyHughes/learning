@@ -1,4 +1,4 @@
-class File_management {
+class File_read {
     static void main(String[] args) {
         Person johnDoe = new Person()
 
