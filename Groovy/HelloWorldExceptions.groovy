@@ -11,5 +11,11 @@ class HelloWorldExceptions {
             assert e instanceof NumberFormatException
             println "Cannot convert a String into a Long"
         }
+
+        try{
+            println johndoe.getFirstName().dropRight(2)
+        } catch (NumberFormatException e) {
+            println "Exception caught"
+        }
     }
 }
