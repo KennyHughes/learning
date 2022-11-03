@@ -150,3 +150,7 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+
+# OS generated files
+.DS_Store
